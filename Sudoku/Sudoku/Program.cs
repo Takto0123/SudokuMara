@@ -6,12 +6,19 @@ public class Program
     static int[,] matrice = new int[9, 9];
     public static void Main(string[] args)
     {
-        visualizzaMatrice();
+        
     }
 
-    public static void Matrice()
+    public static bool Inserisci(int x, int y, int valore)
     {
+        if (x < 0 && x > 8 || y < 0 && y > 8)
+        {
+            Console.WriteLine("Posizione non esistente");
+            return false;
+        }
 
+        matrice[x, y] = valore;
+        return true;
     }
     public static void visualizzaMatrice()
     {
