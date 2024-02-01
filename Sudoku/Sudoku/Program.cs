@@ -7,7 +7,7 @@ public class Program
     static int[,] matrice = new int[9, 9];
     public static void Main(string[] args)
     {
-        Console.WriteLine("Benvenuto");
+        Console.WriteLine("Benvenuto Utente");
 
 
 
