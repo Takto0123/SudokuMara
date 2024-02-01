@@ -9,13 +9,11 @@ public class Program
     {
         Console.WriteLine("Benvenuto Utente");
 
-
-
-
+        
+        visualizzaMatrice();
     }
 
     
-
     public static bool Inserisci(int x, int y, int valore)
     {
         if (x < 0 && x > 8 || y < 0 && y > 8)
