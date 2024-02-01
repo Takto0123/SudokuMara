@@ -6,7 +6,7 @@ public class Program
     static int[,] matrice = new int[9, 9];
     public static void Main(string[] args)
     {
-        
+        visualizzaMatrice();
     }
 
     public static bool Inserisci(int x, int y, int valore)
