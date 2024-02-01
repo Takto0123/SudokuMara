@@ -1,4 +1,5 @@
 ﻿using System.Text;
+using System.Threading.Channels;
 
 public class Program
 {
@@ -6,8 +7,14 @@ public class Program
     static int[,] matrice = new int[9, 9];
     public static void Main(string[] args)
     {
-        
+        Console.WriteLine("Benvenuto");
+
+
+
+
     }
+
+    
 
     public static bool Inserisci(int x, int y, int valore)
     {
